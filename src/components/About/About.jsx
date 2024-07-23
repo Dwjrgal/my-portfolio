@@ -17,8 +17,19 @@ const About = () => {
             thirties, seven years in, I'm building cutting-edge web apps using
             Next.js, TypeScript, Nestjs, Tailwindcss, Supabase, and more.
           </p>
+          <ul>
+            <li>B.E in Computer Engineering</li>
+            <li> Full time freelancer</li>
+            <li> Avid learner</li>
+          </ul>
+          <p>
+            One last thing, I'm available for freelance work, so feel free to
+            reach out and say hello! I promise I don't bite 😉
+          </p>
         </div>
       </section>
     </>
   );
 };
+
+export default About;
