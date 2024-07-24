@@ -26,7 +26,7 @@ const About = () => {
               using Next.js, TypeScript, Nestjs, Tailwindcss, Supabase, and
               more.
             </p>
-            <ul className="flex list-disc gap-9">
+            <ul className="flex list-disc gap-9 pl-3">
               <div className="flex flex-col gap-4">
                 <li>B.E in Computer Engineering</li>
                 <li> Full time freelancer</li>
