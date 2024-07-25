@@ -5,7 +5,7 @@ const Experience = () => {
     <>
       <section
         className="
-      flex flex-col gap-9 items-center bg-slate-100 pb-20"
+      flex flex-col gap-9 items-center bg-slate-50 pb-20"
       >
         <h6 className=" bg-gray-300 w-24 rounded text-center mt-10">
           Experience
