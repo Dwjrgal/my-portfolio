@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <section className="px-[80px] pt-[100px] gap-14 flex flex-col items-center mt-12 ">
+      <section className="px-[80px] pt-[100px] gap-14 flex flex-col items-center mb-10 mt-12 bg-slate-100 ">
         <p className=" bg-gray-300 w-24 rounded text-center">About me</p>
         <section className="flex   w-[1226px]  h-[558px] justify-between items-center gap-[80px]">
           <img
