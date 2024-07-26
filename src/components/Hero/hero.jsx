@@ -9,7 +9,7 @@ const Hero = () => {
     <>
       <section className="flex justify-between px-[90px] pt-[140px]">
         <div className="flex flex-col gap-8">
-          <h1 className="text-6xl font-bold">Hi, I’m Tom 👋 </h1>
+          <h1 className="text-3xl md:text-6xl font-bold">Hi, I’m Tom 👋 </h1>
           <p className="font-thin text-black-600 text-xl">
             I specialize in full stack development, particularly with React.js
             and Node.js. <br /> My main goal is to create exceptional digital

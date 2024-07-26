@@ -10,7 +10,7 @@ const Work = () => {
             src="https://images.unsplash.com/photo-1721299417031-de890ff33b26?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
-          <div className="flex flex-col  justify-start gap-10">
+          <div className="flex flex-col  justify-start gap-10 max-[375px]:flex-col">
             <h3 className="text-md font-bold">UBcab</h3>
             <p className="font-thin w-[480px]">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
