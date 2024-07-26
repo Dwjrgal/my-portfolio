@@ -12,7 +12,7 @@ const Experience = () => {
         </h6>
         <p>Here is a quick summary of my most recent experiences:</p>
         <div className="flex flex-col gap-20">
-          <div className="w-[896px] h-[320px] bg-gray-50 flex  gap-6 pt-[20px] mb-[20px] rounded-md justify-center">
+          <div className="w-[896px] h-[320px] bg-white flex  gap-6 pt-[20px] mb-[20px] rounded-md justify-center">
             <img
               className="w-[206px] h-[28px]"
               src="./images/Column.png"
@@ -36,7 +36,7 @@ const Experience = () => {
             </ul>
             <p>November 2021-Present</p>
           </div>
-          <div className="w-[896px] h-[288px] bg-gray-50 flex  gap-6 pt-[20px] rounded-md justify-center">
+          <div className="w-[896px] h-[288px] bg-white flex  gap-6 pt-[20px] rounded-md justify-center">
             <img
               className="w-[206px] h-[28px]"
               src="./images/Column.png"
@@ -51,7 +51,7 @@ const Experience = () => {
             </ul>
             <p>November 2021-Present</p>
           </div>
-          <div className="w-[896px] h-[180px] bg-gray-50 flex  gap-6 pt-[20px] rounded-md justify-center">
+          <div className="w-[896px] h-[180px] bg-white flex  gap-6 pt-[20px] rounded-md justify-center">
             <img
               className="w-[206px] h-[28px]"
               src="./images/Column.png"

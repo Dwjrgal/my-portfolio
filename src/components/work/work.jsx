@@ -12,7 +12,7 @@ const Work = () => {
           />
           <div className="flex flex-col  justify-start gap-10 h-[384px]">
             <h3 className="text-md font-bold">UBcab</h3>
-            <p>
+            <p className="font-thin">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               <br />
               Assumenda sit cum tempora quas quod, velit minima veniam ipsum{" "}
@@ -58,7 +58,7 @@ const Work = () => {
         <div className="flex justify-between gap-20 items-center mx-60 mt-20">
           <div className="flex flex-col  justify-start gap-10 h-[384px]">
             <h3 className="text-md font-bold">Mentorhub</h3>
-            <p>
+            <p className="font-thin">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               <br />
               Assumenda sit cum tempora quas quod, velit minima veniam ipsum{" "}
@@ -114,7 +114,7 @@ const Work = () => {
           />
           <div className="flex flex-col  justify-start gap-10 h-[384px]">
             <h3 className="text-md font-bold">iToim</h3>
-            <p>
+            <p className="font-thin">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               <br />
               Assumenda sit cum tempora quas quod, velit minima veniam ipsum{" "}
