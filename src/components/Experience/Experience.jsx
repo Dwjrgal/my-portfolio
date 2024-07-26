@@ -11,8 +11,8 @@ const Experience = () => {
           Experience
         </h6>
         <p>Here is a quick summary of my most recent experiences:</p>
-        <div className="flex flex-col gap-20">
-          <div className="w-[896px] h-[320px] bg-white flex  gap-6 pt-[20px] mb-[20px] rounded-md justify-center">
+        <div className="flex flex-col gap-20  max-[375px]:flex-col md:flex-col max-[375px]:items-center">
+          <div className="bg-white flex  gap-6 pt-[20px] mb-[20px] rounded-md justify-center  md:flex  max-[375px]:w-[343px] max-[375px]:flex-col">
             <img
               className="w-[206px] h-[28px]"
               src="./images/Column.png"
@@ -36,7 +36,7 @@ const Experience = () => {
             </ul>
             <p>November 2021-Present</p>
           </div>
-          <div className="w-[896px] h-[288px] bg-white flex  gap-6 pt-[20px] rounded-md justify-center">
+          <div className=" bg-white flex  gap-6 pt-[20px] rounded-md justify-center md:flex  max-[375px]:w-[343px] max-[375px]:flex-col">
             <img
               className="w-[206px] h-[28px]"
               src="./images/Column.png"
@@ -51,7 +51,7 @@ const Experience = () => {
             </ul>
             <p>November 2021-Present</p>
           </div>
-          <div className="w-[896px] h-[180px] bg-white flex  gap-6 pt-[20px] rounded-md justify-center">
+          <div className="bg-white flex  gap-6 pt-[20px] rounded-md justify-center md:flex  max-[375px]:w-[343px] max-[375px]:flex-col">
             <img
               className="w-[206px] h-[28px]"
               src="./images/Column.png"

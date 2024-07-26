@@ -1,13 +1,13 @@
 const About = () => {
   return (
     <>
-      <section className="px-[80px] pt-[100px] gap-14 flex flex-col items-center mb-10 mt-12 bg-slate-50 ">
+      <section className="px-[80px] pt-[100px] gap-14 flex flex-col items-center mb-10 mt-12 bg-slate-50 md:bg-blue-950 ">
         <p className=" bg-gray-300 w-24 rounded text-center">About me</p>
-        <section className="flex   w-[1226px]  h-[558px] justify-between items-center gap-[80px]">
+        <section className="flex  flex-col md:flex-row w-[1226px]  justify-between items-center gap-[80px] max[375px]:flex-col ">
           <div className="flex">
-            <div className="box h-[420px] w-[380px] bg-gray-600 relative top-20 right-60"></div>
+            {/* <div className="box h-[420px] w-[380px] bg-gray-600 relative top-20 right-60"></div> */}
             <img
-              className="h-[420px] w-[380px] shadow  shadow-slate-500 absolute"
+              className="h-[420px] w-[380px] shadow"
               src="https://images.unsplash.com/photo-1719871362125-0869885ea481?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI1fGoyemVjNmtkOVZrfHxlbnwwfHx8fHw%3D"
               alt=""
             />
