@@ -1,10 +1,10 @@
 const Skills = () => {
   return (
     <>
-      <section className="flex flex-col gap-8 items-center h-[300px] w-[1440px] my-28">
+      <section className="flex flex-col gap-8 items-center md:h-[300px] md:w-[1440px] my-28">
         <p className=" bg-gray-300 w-24 rounded text-center">Skills</p>
         <h5>The skills, tools and technologies I am really good at</h5>
-        <section className="logos flex flex-col h-10  gap-9 items-center mt-10 max-sm:w-[375px] max-sm:flex max-sm:flex-wrap">
+        <section className="logos flex flex-col h-10  gap-9 items-center mt-10 max-sm:w-[343px] max-sm:flex">
           <div className="flex gap-x-20 h-10 w-16 justify-center items-center ">
             <img className="h-10" src="./images/icon-javscript.svg" alt="" />
             <img className="h-10" src="./images/icon-typescript.svg" alt="" />

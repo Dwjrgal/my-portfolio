@@ -5,11 +5,11 @@ import { FaFigma } from "react-icons/fa6";
 const Footer = () => {
   return (
     <>
-      <section className="flex  flex-col items-center mt-28 gap-9">
+      <section className="flex  flex-col items-center mt-28 gap-9 max-sm:w-[343px]">
         <h4 className=" bg-gray-300 w-40 h-[28px] rounded-lg text-center">
           Get in touch
         </h4>
-        <p className="text-xl text-center font-thin">
+        <p className="text-xl text-center font-thin max-sm:text-lg max-sm:text-center">
           What’s next? Feel free to reach out to me if you're looking for <br />{" "}
           a developer, have a query, or simply want to connect.
         </p>
@@ -22,7 +22,11 @@ const Footer = () => {
         ></textarea> */}
       </section>
       <div className="flex flex-col items-center gap-8 mt-16 mb-20">
-        <img className="w-90" src="./images/gmail.png" alt="" />
+        <img
+          className="w-90 max-sm:w-[343px] max-sm:h-[70px]"
+          src="./images/gmail.png"
+          alt=""
+        />
         <p className="font-thin">You may also find me on these platforms!</p>
         <div className="flex gap-6 mb-8">
           <FiGithub className="w-[20px] h-[20px]" />
