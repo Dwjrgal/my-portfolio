@@ -3,17 +3,17 @@ const About = () => {
     <>
       <section className="px-[80px] pt-[100px] gap-14 flex flex-col items-center mb-10 mt-12 bg-slate-50 md:bg-blue-950 ">
         <p className=" bg-gray-300 w-24 rounded text-center">About me</p>
-        <section className="flex  flex-col md:flex-row w-[1226px]  justify-between items-center gap-[80px] max[375px]:flex-col ">
+        <section className="flex  flex-col md:flex-row w-[1226px]  justify-between items-center gap-[80px] max-sm:flex-col ">
           <div className="flex">
             {/* <div className="box h-[420px] w-[380px] bg-gray-600 relative top-20 right-60"></div> */}
             <img
-              className="h-[420px] w-[380px] shadow"
+              className="h-[420px] w-[380px] shadow max-sm:w-[280px] max-sm:h-[320px]"
               src="https://images.unsplash.com/photo-1719871362125-0869885ea481?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI1fGoyemVjNmtkOVZrfHxlbnwwfHx8fHw%3D"
               alt=""
             />
           </div>
-          <div className="flex flex-col gap-9 w-[584px]">
-            <h4 className="text-2xl font-medium">
+          <div className="flex flex-col gap-9 w-[584px] max-sm:w-[343px]">
+            <h4 className="text-2xl font-medium max-sm:text-sm">
               Curious about me? Here you have it:
             </h4>
             <p>

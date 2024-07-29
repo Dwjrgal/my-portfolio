@@ -11,14 +11,14 @@ const Experience = () => {
           Experience
         </h6>
         <p>Here is a quick summary of my most recent experiences:</p>
-        <div className="flex flex-col gap-20  max-[375px]:flex-col md:flex-col max-[375px]:items-center">
-          <div className="bg-white flex  gap-6 pt-[20px] mb-[20px] rounded-md justify-center  md:flex  max-[375px]:w-[343px] max-[375px]:flex-col">
+        <div className="flex flex-col gap-20  max-sm:flex-col md:flex-col max-sm:items-center">
+          <div className="bg-white flex  gap-6 pt-[20px] mb-[20px] rounded-md justify-center  md:flex  max-sm:w-[343px] max-sm:flex-col max-sm:justify-center">
             <img
               className="w-[206px] h-[28px]"
               src="./images/Column.png"
               alt=""
             />
-            <ul className="flex flex-col gap-5 list-disc text-md text-gray-600 pt-[20px]">
+            <ul className="flex flex-col gap-5 list-disc text-md text-gray-600 pt-[20px] max-sm[]:text-sm max-sm:gap-2">
               <h3 className="text-xl font-bold"> Sr.Frontend Developer</h3>
               <li>
                 Lorem ipsum dolor sit amet, consectetur <br />
@@ -36,13 +36,13 @@ const Experience = () => {
             </ul>
             <p>November 2021-Present</p>
           </div>
-          <div className=" bg-white flex  gap-6 pt-[20px] rounded-md justify-center md:flex  max-[375px]:w-[343px] max-[375px]:flex-col">
+          <div className=" bg-white flex  gap-6 pt-[20px] rounded-md justify-center md:flex  max-sm:w-[343px] max-sm:flex-col">
             <img
               className="w-[206px] h-[28px]"
               src="./images/Column.png"
               alt=""
             />
-            <ul className="flex flex-col gap-5 list-disc text-md text-gray-600 ">
+            <ul className="flex flex-col gap-5 list-disc text-md text-gray-600 max-sm:text-sm ">
               <h3 className="text-xl font-bold">Team lead</h3>
               <li>Lorem ipsum dolor sit amet, elit.</li>
               <li>Ut pretium arcu et massa semper, id semper.</li>
@@ -51,14 +51,14 @@ const Experience = () => {
             </ul>
             <p>November 2021-Present</p>
           </div>
-          <div className="bg-white flex  gap-6 pt-[20px] rounded-md justify-center md:flex  max-[375px]:w-[343px] max-[375px]:flex-col">
+          <div className="bg-white flex  gap-6 pt-[20px] rounded-md justify-center md:flex  max-sm:w-[343px] max-sm:flex-col">
             <img
               className="w-[206px] h-[28px]"
               src="./images/Column.png"
               alt=""
             />
 
-            <ul className="flex flex-col gap-5 list-disc text-md text-gray-600">
+            <ul className="flex flex-col gap-5 list-disc text-md text-gray-600 max-sm:text-sm">
               <h3 className="text-xl font-bold"> Sr.Frontend Developer</h3>
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
             </ul>

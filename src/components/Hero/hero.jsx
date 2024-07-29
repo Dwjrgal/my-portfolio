@@ -7,10 +7,20 @@ import { GoDotFill } from "react-icons/go";
 const Hero = () => {
   return (
     <>
-      <section className="flex justify-between px-[90px] pt-[140px]">
-        <div className="flex flex-col gap-8">
-          <h1 className="text-3xl md:text-6xl font-bold">Hi, I’m Tom 👋 </h1>
-          <p className="font-thin text-black-600 text-xl">
+      <section className="flex justify-between px-[90px] pt-[140px] max-sm:flex-col max-sm:justify-center">
+        <div className="flex items-center pr-[80px]">
+          <div className="box h-80 w-[300px] bg-gray-200 relative top-10 left-10 max-sm:hidden"></div>
+          <img
+            className="h-80 w-80 shadow-md shadow-cyan-800 absolute max-sm:w-[240px] max-sm:h-[280px]"
+            src="https://images.unsplash.com/photo-1718511048847-26559b9b547d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDU3fGoyemVjNmtkOVZrfHxlbnwwfHx8fHw%3D"
+            alt=""
+          />
+        </div>
+        <div className="flex flex-col gap-8 max-sm:gap-4">
+          <h1 className="max-sm:text-3xl text-6xl font-bold">
+            Hi, I’m Tom 👋{" "}
+          </h1>
+          <p className="font-thin text-black-600 text-xl max-sm:text-sm">
             I specialize in full stack development, particularly with React.js
             and Node.js. <br /> My main goal is to create exceptional digital
             experiences that are fast, visually <br />
@@ -19,31 +29,23 @@ const Hero = () => {
             crafting innovative solutions and designs.
           </p>
           <div>
-            <ul className="font-thin  text-black-600 text-xl pt-[50px]">
+            <ul className="font-thin  text-black-600 text-xl pt-[50px] max-sm:text-sm">
               <li className="flex gap-5">
                 {" "}
-                <CiLocationOn className="text-3xl" />
+                <CiLocationOn className="text-3xl max-sm:text-lg" />
                 Ulaanbaatar, Mongolia
               </li>
               <li className="flex gap-5">
-                <GoDotFill className="text-emerald-600 text-2xl" />
+                <GoDotFill className="text-emerald-600 text-2xl max-sm:text-lg" />
                 Available for new projects
               </li>
             </ul>
           </div>
-          <div className="icons flex gap-6 text-3xl text-gray-600 pt-[50px] ">
+          <div className="icons flex gap-6 text-3xl text-gray-600 pt-[50px] max-sm:text-xl">
             <FiGithub />
             <TfiTwitter />
             <TbBrandFigma />
           </div>
-        </div>
-        <div className="flex items-center pr-[80px]">
-          <div className="box h-80 w-[300px] bg-gray-200 relative top-10 left-10"></div>
-          <img
-            className="h-80 w-80 shadow-md shadow-cyan-800 absolute"
-            src="https://images.unsplash.com/photo-1718511048847-26559b9b547d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDU3fGoyemVjNmtkOVZrfHxlbnwwfHx8fHw%3D"
-            alt=""
-          />
         </div>
       </section>
     </>
