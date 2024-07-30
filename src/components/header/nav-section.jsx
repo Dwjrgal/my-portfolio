@@ -9,8 +9,10 @@ const NavSection = () => {
   const showMenu = () => {
     setShow(true);
   };
-  const [hide, setHide] = useState();
-  const hideMenu = () => {};
+  const [hide, setHide] = useState(false);
+  const hideMenu = () => {
+    setHide(false);
+  };
 
   return (
     <div>
@@ -20,7 +22,7 @@ const NavSection = () => {
       </div>
       <div className="md:hidden flex">
         <GiHamburgerMenu onClick={showMenu} />
-        <XIcon onClick={hideMenu} />
+        <IoMdClose onClick={hideMenu} />
       </div>
       {show ? <MobileMenu /> : <div></div>}
       {/* <MobileMenu /> */}
