@@ -1,6 +1,5 @@
 import { useTheme } from "next-themes";
 import Menu from "./menu";
-<<<<<<< HEAD
 import MobileMenu from "./mobile-menu";
 import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
@@ -38,35 +37,6 @@ const NavSection = () => {
         </button>
       </nav>
       <MobileMenu menuList={menuList} />
-=======
-import NavButtons from "./nav-buttons";
-import { GiHamburgerMenu } from "react-icons/gi";
-import MobileMenu from "./mobile-menu";
-import { useState } from "react";
-
-const NavSection = () => {
-  const [show, setShow] = useState(false);
-  const showMenu = () => {
-    setShow(true);
-  };
-  const [hide, setHide] = useState(false);
-  const hideMenu = () => {
-    setHide(false);
-  };
-
-  return (
-    <div>
-      <div className="hidden md:flex md:gap-8">
-        <Menu />
-        <NavButtons />
-      </div>
-      <div className="md:hidden flex">
-        <GiHamburgerMenu onClick={showMenu} />
-        <IoMdClose onClick={hideMenu} />
-      </div>
-      {show ? <MobileMenu /> : <div></div>}
-      {/* <MobileMenu /> */}
->>>>>>> c1b6b08747ee0b6b1623e411dc4699f4d840524b
     </div>
   );
 };

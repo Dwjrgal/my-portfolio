@@ -1,54 +1,23 @@
-import { FiGithub } from "react-icons/fi";
-import { TfiTwitter } from "react-icons/tfi";
-import { TbBrandFigma } from "react-icons/tb";
-import { CiLocationOn } from "react-icons/ci";
-import { GoDotFill } from "react-icons/go";
+
+import { motion } from "framer-motion";
+import HeroText from "./hero-text"
 
 const Hero = () => {
   return (
-    <>
-      <section className="flex justify-between px-[90px] pt-[140px] max-sm:flex-col max-sm:justify-center">
+      <section className="flex flex-col-reverse md:flex-row gap-12 items-center min-h:[560px] px-4 md:px-20 dark:bg-gray-950">
+        <HeroText />
         <div className="flex items-center pr-[80px]">
           <div className="box h-80 w-[300px] bg-gray-200 relative top-10 left-10 max-sm:hidden"></div>
-          <img
-            className="h-80 w-80 shadow-md shadow-cyan-800 absolute max-sm:w-[240px] max-sm:h-[280px]"
+          <motion.img
+            className=" object-cover mt-8 h-96 w-96 shadow-md shadow-cyan-800 absolute max-sm:w-[240px] max-sm:h-[280px]"
             src="https://images.unsplash.com/photo-1718511048847-26559b9b547d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDU3fGoyemVjNmtkOVZrfHxlbnwwfHx8fHw%3D"
             alt=""
-          />
-        </div>
-        <div className="flex flex-col gap-8 max-sm:gap-4">
-          <h1 className="max-sm:text-3xl text-6xl font-bold">
-            Hi, I’m Tom 👋{" "}
-          </h1>
-          <p className="font-thin text-black-600 text-xl max-sm:text-sm">
-            I specialize in full stack development, particularly with React.js
-            and Node.js. <br /> My main goal is to create exceptional digital
-            experiences that are fast, visually <br />
-            appealing, and accessible to everyone. With over 7 years of
-            experience in web <br /> development, I continue to find joy in
-            crafting innovative solutions and designs.
-          </p>
-          <div>
-            <ul className="font-thin  text-black-600 text-xl pt-[50px] max-sm:text-sm">
-              <li className="flex gap-5">
-                {" "}
-                <CiLocationOn className="text-3xl max-sm:text-lg" />
-                Ulaanbaatar, Mongolia
-              </li>
-              <li className="flex gap-5">
-                <GoDotFill className="text-emerald-600 text-2xl max-sm:text-lg" />
-                Available for new projects
-              </li>
-            </ul>
-          </div>
-          <div className="icons flex gap-6 text-3xl text-gray-600 pt-[50px] max-sm:text-xl">
-            <FiGithub />
-            <TfiTwitter />
-            <TbBrandFigma />
-          </div>
-        </div>
+            initial={{ opacity: 0, scale: 0.8}}
+            animate={{ opacity: 1, scale: 1}}
+            transition ={{duration: 0.5 }}
+            />
+         </div>
       </section>
-    </>
   );
 };
 
