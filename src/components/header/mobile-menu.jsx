@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react";
 import { MdOutlineLightMode, MdOutlineDarkMode
 } from "react-icons/md";
@@ -85,6 +86,25 @@ const MobileMenu = () => {
       )}
     </div>
   
+=======
+import React from "react";
+import { IoMdClose } from "react-icons/io";
+
+const MobileMenu = () => {
+  return (
+    <div className="bg-white">
+      <div className="flex justify-between w-[320px] h-[68px] p-4">
+        <h2>DVJ</h2>
+        <IoMdClose />
+      </div>
+      <ul className="text-black">
+        <li>About</li>
+        <li>Work</li>
+        <li>Testimonials</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+>>>>>>> c1b6b08747ee0b6b1623e411dc4699f4d840524b
   );
 };
 

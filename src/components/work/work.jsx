@@ -20,7 +20,7 @@ const Work = () => {
               facere totam impedit voluptate consequatur asperiores quia saepe
               illo inventore, expedita qui!
             </p>
-            <div className="tags md:w-[480px] md:flex  flex-wrap  gap-5 max-sm:w-[343px] max-sm:flex-wrap max-sm:flex">
+            <div className="tags md:w-[480px] md:flex  md:flex-wrap  gap-5 max-sm:w-[343px] max-sm:flex-wrap max-sm:flex">
               <p className=" bg-gray-300 w-24 h-[28px] rounded-lg text-center">
                 React
               </p>

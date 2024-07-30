@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <motion.div>
+    <motion.div animate={{ x: 100 }} className="max-sm:flex">
       <>
         <section className="px-[80px] pt-[100px] gap-14 flex flex-col items-center mb-10 mt-12 bg-slate-50 md:bg-blue-950 ">
           <p className=" bg-gray-300 w-24 rounded text-center">About me</p>
-          <section className="flex  flex-col md:flex-row w-[1226px]  justify-between items-center gap-[80px] max-sm:flex-col ">
+          <section className="flex  flex-col md:flex-row  justify-between items-center gap-[80px] max-sm:flex-col ">
             <div className="flex">
               {/* <div className="box h-[420px] w-[380px] bg-gray-600 relative top-20 right-60"></div> */}
               <img
