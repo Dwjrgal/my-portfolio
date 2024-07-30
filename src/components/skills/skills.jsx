@@ -1,33 +1,44 @@
+import LabelTag from "../label-tag";
+
+const skills = [
+  { name: "Javascript", icon: "/images/icons/icon-javascript.png" },
+  { name: "Typescript", icon: "/images/icons/icon-Typescript.png" },
+  { name: "React", icon: "/images/icons/icon-react.png" },
+  { name: "Next.js", icon: "/images/icons/icon-nextjs.png" },
+  { name: "Node.js", icon: "/images/icons/icon-nodejs.png" },
+  { name: "Express.js", icon: "/images/icons/icon-express.png" },
+  { name: "Nest.js", icon: "/images/icons/icon-nest.png" },
+  { name: "Socket.io", icon: "/images/icons/icon-socket.png" },
+  { name: "PostgreSQL", icon: "/images/icons/icon-postgresql.png" },
+  { name: "MongoDB", icon: "/images/icons/icon-mongodb.png" },
+  { name: "Sass/Scss", icon: "/images/icons/icon-sass.png" },
+  { name: "Tailwindcss", icon: "/images/icons/icon-tailwindcss.png" },
+  { name: "Figma", icon: "/images/icons/icon-figma.png" },
+  { name: "Cypress", icon: "/images/icons/icon-cypress.png" },
+  { name: "Storybook", icon: "/images/icons/icon-storybook.png" },
+  { name: "Git", icon: "/images/icons/icon-git.png" },
+];
+
 const Skills = () => {
   return (
-    <>
-      <section className="flex flex-col gap-8 items-center md:h-[300px] md:w-[1440px] my-28">
-        <p className=" bg-gray-300 w-24 rounded text-center">Skills</p>
-        <h5>The skills, tools and technologies I am really good at</h5>
-        <section className="logos flex flex-col h-10  gap-9 items-center mt-10 max-sm:w-[343px] max-sm:flex">
-          <div className="flex gap-x-20 h-10 w-16 justify-center items-center ">
-            <img className="h-10" src="./images/icon-javscript.svg" alt="" />
-            <img className="h-10" src="./images/icon-typescript.svg" alt="" />
-            <img className="h-10" src="./images/icon-react.svg" alt="" />
-            <img className="h-10" src="./images/icon-nextjs.svg" alt="" />
-            <img className="h-10" src="./images/icon-nodejs.svg" alt="" />
-            <img className="h-10" src="./images/Vector.png" alt="" />
-            <img className="h-10" src="./images/icon-nest.svg" alt="" />
-            <img className="h-10" src="./images/icon-socket.png" alt="" />
+    <div className="flex flex-col items-center justify-center px-20 py-24 bg-white dark:bg-gray-950">
+      <LabelTag label="Skills" />
+      <p className="mt-4 text-gray-600 dark:text-gray-300">
+        The skills, tools and technologies I am really good at:
+      </p>
+      <div className="grid grid-cols-2 gap-8 mt-12 md:grid-cols-8">
+        {skills.map((skill) => (
+          <div key={skill.name} className="flex flex-col items-center">
+            <img
+              src={skill.icon}
+              alt={`${skill.name} icon`}
+              className="w-12 h-12 mb-2"
+            />
+            <p className="text-gray-700 dark:text-gray-300">{skill.name}</p>
           </div>
-          <div className="flex gap-x-20  h-10 w-16 justify-center">
-            <img className="h-10" src="./images/icon-postgresql.svg" alt="" />
-            <img className="h-10" src="./images/icon-mongodb.svg" alt="" />
-            <img className="h-10" src="./images/icon-sass.svg" alt="" />
-            <img className="h-10" src="./images/Figma.png" alt="" />
-            <img className="h-10" src="./images/tailwind.png" alt="" />
-            <img className="h-10" src="./images/Cypress.png" alt="" />
-            <img className="h-10" src="./images/Storybook.png" alt="" />
-            <img className="h-10" src="./images/git.png" alt="" />
-          </div>
-        </section>
-      </section>
-    </>
+        ))}
+      </div>
+    </div>
   );
 };
 

@@ -34,7 +34,7 @@ const HeroText = () => {
           👋
         </span>
       </h1>
-      <p className="mt-4 text-base">
+      <p className="mt-4 text-base w-[466px]">
         I specialize in full stack development, particularly with React.js and
         Node.js. My main goal is to create exceptional digital experiences that
         are fast, visually appealing, and accessible to everyone. With over 7
