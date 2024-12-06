@@ -6,9 +6,9 @@ const ExperienceCard = ({ title, company, date, description }) => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="flex p-6 mb-6 bg-white rounded-lg shadow-lg dark:bg-gray-800"
+      className="flex flex-col p-6 mb-6 bg-white rounded-lg shadow-lg md:flex-row dark:bg-gray-800"
     >
-      <h1 className="flex-1 text-lg font-extrabold text-green-500">
+      <h1 className="flex-1 text-sm font-extrabold text-green-500 text-wrap max-w-[90px] mr-20">
         {company}
       </h1>
       <div className="flex-2">

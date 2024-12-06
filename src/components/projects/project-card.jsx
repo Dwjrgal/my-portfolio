@@ -6,10 +6,14 @@ const ProjectCard = ({ title, description, image, tags, swap }) => {
     <div
       className={`flex ${
         swap ? "flex-row-reverse" : ""
-      } mx-16 overflow-hidden bg-white shadow-lg rounded-xl dark:bg-gray-800`}
+      } mx-16 overflow-hidden bg-white shadow-lg rounded-xl dark:bg-gray-800 max-w-[1200px] mx-auto`}
     >
-      <div className="flex-1 p-12 bg-gray-700">
-        <img className="w-full" src={image} alt={title} />
+      <div className="flex-1">
+        <img
+          className="object-contain object-center w-full"
+          src={image}
+          alt={title}
+        />
       </div>
       <div className="flex flex-col flex-1 gap-6 p-12">
         <div className="mb-2 text-xl font-bold">{title}</div>

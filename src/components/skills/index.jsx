@@ -8,15 +8,15 @@ const skills = [
   { name: "Node.js", icon: "/images/icons/icon-nodejs.png" },
   { name: "Express.js", icon: "/images/icons/icon-express.png" },
   { name: "Nest.js", icon: "/images/icons/icon-nest.png" },
-  { name: "Socket.io", icon: "/images/icons/icon-socket.png" },
+  { name: "Jest", icon: "/images/icons/icon-jest.png" },
   { name: "PostgreSQL", icon: "/images/icons/icon-postgresql.png" },
   { name: "MongoDB", icon: "/images/icons/icon-mongodb.png" },
-  { name: "Sass/Scss", icon: "/images/icons/icon-sass.png" },
+  { name: "Shadcn/ui", icon: "/images/icons/shadcn.webp" },
   { name: "Tailwindcss", icon: "/images/icons/icon-tailwindcss.png" },
   { name: "Figma", icon: "/images/icons/icon-figma.png" },
   { name: "Cypress", icon: "/images/icons/icon-cypress.png" },
-  { name: "Storybook", icon: "/images/icons/icon-storybook.png" },
-  { name: "Git", icon: "/images/icons/icon-git.png" },
+  { name: "Apollo", icon: "/images/icons/icon-apollo.svg" },
+  { name: "Github", icon: "/images/icons/icon-github.png" },
 ];
 
 const Skills = () => {

@@ -4,8 +4,27 @@ import ProjectCard from "./project-card";
 
 const projects = [
   {
-    title: "UBCab",
-    image: "/images/ubcab.png",
+    title: "Pawchig",
+    image: "/images/photos/pawchig.png",
+    description:
+      "A cab booking application with seamless payment integration and user-friendly experience.",
+    tags: [
+      { name: "Javascript" },
+      { name: "Typescript" },
+      { name: "React" },
+      { name: "Next.js" },
+      { name: "Node.js" },
+      { name: "Express.js" },
+      { name: "Nest.js" },
+      { name: "Shadcn" },
+      { name: "Npm" },
+      { name: "MongoDB" },
+      { name: "Tailwind" },
+    ],
+  },
+  {
+    title: "E-commerce",
+    image: "/images/photos/ecommerce.png",
     description:
       "A cab booking application with seamless payment integration and user-friendly experience.",
     tags: [
@@ -23,27 +42,8 @@ const projects = [
     ],
   },
   {
-    title: "UBEATS",
-    image: "/images/ubcab.png",
-    description:
-      "A cab booking application with seamless payment integration and user-friendly experience.",
-    tags: [
-      { name: "Javascript" },
-      { name: "Typescript" },
-      { name: "React" },
-      { name: "Next.js" },
-      { name: "Node.js" },
-      { name: "Express.js" },
-      { name: "Nest.js" },
-      { name: "Socket.io" },
-      { name: "PostgreSQL" },
-      { name: "MongoDB" },
-      { name: "Sass/Scss" },
-    ],
-  },
-  {
-    title: "UBEATS",
-    image: "/images/ubcab.png",
+    title: "Blog web",
+    image: "/images/photos/blog-web.png",
     description:
       "A cab booking application with seamless payment integration and user-friendly experience.",
     tags: [

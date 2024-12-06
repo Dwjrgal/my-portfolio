@@ -7,16 +7,16 @@ const AboutContent = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="flex mt-12"
+      className="flex flex-col md:flex-row mt-12 max-w-[1700px] mx-auto"
     >
-      <div className="flex-1">
+      <div className="flex-1 mb-6 md:mb-0">
         <img
           src="/path/to/your/photo.jpg"
           alt="Your Photo"
           className="w-40 h-40 mx-auto rounded-full md:mx-0"
         />
       </div>
-      <div className="flex-1 mt-6 text-center md:ml-8 md:mt-0 md:text-left">
+      <div className="flex-1 mt-6 text-center md:ml-8 md:mt-0 md:text-left max-w-[1300px]">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
           Curious about me? Here you have it:
         </h1>
