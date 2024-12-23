@@ -1,3 +1,4 @@
+import Link from "next/link";
 import NavSection from "./nav-section";
 
 const Header = () => {

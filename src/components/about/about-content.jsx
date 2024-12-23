@@ -43,10 +43,6 @@ const AboutContent = () => {
           <li>• Full-time freelancer</li>
           <li>• Avid learner</li>
         </ul>
-        <p className="mt-4 text-gray-600 dark:text-gray-300">
-          One last thing, I'm available for freelance work, so feel free to
-          reach out and say hello! I promise I don't bite.
-        </p>
       </div>
     </motion.div>
   );
