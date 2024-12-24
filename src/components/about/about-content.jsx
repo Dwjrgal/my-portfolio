@@ -11,7 +11,7 @@ const AboutContent = () => {
     >
       <div className="flex-1 mb-6 md:mb-0 w-[600px] rounded-xl">
         <img
-          src="/images/photos/profile.jpg"
+          src="https://images.unsplash.com/photo-1734613876170-079f67aa0d15?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Your Photo"
           className="w-60 h-60 mx-auto md:ml-20 rounded-xl object-center"
         />
