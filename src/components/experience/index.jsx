@@ -6,12 +6,11 @@ const experiences = [
   {
     title: "Full-stack developer",
     company: "Pet adoption web",
-    date: "Oct 2024 - 2024 Nov",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Ut pretium arcu et massa semper, id fringilla leo semper.",
-      "Sed quis justo ac magna.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Хэрэглэгчдэд амьтдын талаар сонирхолтой факт мэдээлэл өгөх зорилгоор Blog page оруулан fullstack хөгжүүлэлт хийсэн",
+      "Admin талаас нийтлэл буюу пост оруулах хэсгийг хөгжүүлсэн",
+      "Home page буюу нүүр хуудсын хөгжүүлэлт",
+      "Page responsive дизайнтай хийсэн.",
     ],
   },
   {
