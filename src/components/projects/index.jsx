@@ -4,10 +4,10 @@ import ProjectCard from "./project-card";
 
 const projects = [
   {
-    title: "UBCab",
-    image: "/images/ubcab.png",
+    title: "Pawchig",
+    image: "/images/photos/pawchig.png",
     description:
-      "A cab booking application with seamless payment integration and user-friendly experience.",
+      "This time, our class was divided into teams to work on projects for the first time. Our team successfully developed a website with a four-member group, designed to facilitate donations for animals, provide aid to stray animals, and even enable users to adopt them.",
     tags: [
       { name: "Javascript" },
       { name: "Typescript" },
@@ -16,17 +16,17 @@ const projects = [
       { name: "Node.js" },
       { name: "Express.js" },
       { name: "Nest.js" },
-      { name: "Socket.io" },
-      { name: "PostgreSQL" },
+      { name: "Shadcn" },
+      { name: "Npm" },
       { name: "MongoDB" },
-      { name: "Sass/Scss" },
+      { name: "Tailwind" },
     ],
   },
   {
-    title: "UBEATS",
-    image: "/images/ubcab.png",
+    title: "E-commerce",
+    image: "/images/photos/ecommerce.png",
     description:
-      "A cab booking application with seamless payment integration and user-friendly experience.",
+      "Through this project, we developed an e-commerce website for an online clothing store using JavaScript and MongoDB.",
     tags: [
       { name: "Javascript" },
       { name: "Typescript" },
@@ -34,18 +34,17 @@ const projects = [
       { name: "Next.js" },
       { name: "Node.js" },
       { name: "Express.js" },
-      { name: "Nest.js" },
-      { name: "Socket.io" },
+      { name: "Tailwind" },
       { name: "PostgreSQL" },
       { name: "MongoDB" },
-      { name: "Sass/Scss" },
+      { name: "Shadcn" },
     ],
   },
   {
-    title: "UBEATS",
-    image: "/images/ubcab.png",
+    title: "Blog web",
+    image: "/images/photos/blog-web.png",
     description:
-      "A cab booking application with seamless payment integration and user-friendly experience.",
+      "The main functionality of this project is to fetch data from Dev.to using JavaScript and present engaging blogs to users.",
     tags: [
       { name: "Javascript" },
       { name: "Typescript" },
@@ -53,30 +52,10 @@ const projects = [
       { name: "Next.js" },
       { name: "Node.js" },
       { name: "Express.js" },
-      { name: "Nest.js" },
-      { name: "Socket.io" },
+      { name: "Tailwind" },
       { name: "PostgreSQL" },
       { name: "MongoDB" },
-      { name: "Sass/Scss" },
-    ],
-  },
-  {
-    title: "UBEATS",
-    image: "/images/ubcab.png",
-    description:
-      "A cab booking application with seamless payment integration and user-friendly experience.",
-    tags: [
-      { name: "Javascript" },
-      { name: "Typescript" },
-      { name: "React" },
-      { name: "Next.js" },
-      { name: "Node.js" },
-      { name: "Express.js" },
-      { name: "Nest.js" },
-      { name: "Socket.io" },
-      { name: "PostgreSQL" },
-      { name: "MongoDB" },
-      { name: "Sass/Scss" },
+      { name: "Shadcn" },
     ],
   },
 ];

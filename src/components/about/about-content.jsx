@@ -7,42 +7,33 @@ const AboutContent = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="flex mt-12"
+      className="flex flex-col md:flex-row mt-12 max-w-[1700px] mx-auto"
     >
-      <div className="flex-1">
+      <div className="flex-1 mb-6 md:mb-0 w-[600px] rounded-xl">
         <img
-          src="/path/to/your/photo.jpg"
+          src="/images/photos/profile.jpg"
           alt="Your Photo"
-          className="w-40 h-40 mx-auto rounded-full md:mx-0"
+          className="w-60 h-60 mx-auto md:ml-20 rounded-xl object-center"
         />
       </div>
-      <div className="flex-1 mt-6 text-center md:ml-8 md:mt-0 md:text-left">
+      <div className="flex-1 mt-6 text-center md:ml-8 md:mt-0 md:text-left max-w-[1300px] max-h-[1500px]">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
           Curious about me? Here you have it:
         </h1>
         <p className="mt-4 text-gray-600 dark:text-gray-300">
-          I'm a designer turned full stack developer, passionate about React.js
-          and Node.js. I excel in blending technical and visual aspects to craft
-          exceptional digital products, prioritizing user experience, precise
-          design, and optimized code.
+          I, N. Davaajargal, joined the Pinecone Academy's Leap Program in May
+          2024 to pursue a career as a software engineer. Currently, I am
+          actively engaged in the academy's internship training courses,
+          striving to enhance my skills and knowledge in the field.
         </p>
         <p className="mt-4 text-gray-600 dark:text-gray-300">
-          Since starting my web development journey in 2015, I've embraced
-          challenges and kept up with the latest tech trends. Now in my early
-          thirties, seven years in, I'm building cutting-edge web apps using
-          Next.js, TypeScript, Nestjs, Tailwindcss, Supabase, and more.
+          I am committed to continuous self-improvement and possess a
+          responsible and determined character. In my free time, I engage in
+          creative activities such as drawing, hiking, knitting, and listening
+          to podcasts, all aimed at broadening my perspective and fostering
+          creativity. Additionally, I strive to approach and resolve any
+          challenges with responsibility and mindfulness.
         </p>
-        <p className="mt-4 text-gray-600 dark:text-gray-300">
-          With a progressive mindset, I enjoy the entire product development
-          process, from ideation to execution. Off duty, you'll find me on
-          Twitter, tracking startup journeys, or unwinding. Follow me for tech
-          insights and public project updates on Twitter or GitHub.
-        </p>
-        <ul className="mt-4 text-gray-600 dark:text-gray-300">
-          <li>• B.E. in Computer Engineering</li>
-          <li>• Full-time freelancer</li>
-          <li>• Avid learner</li>
-        </ul>
       </div>
     </motion.div>
   );

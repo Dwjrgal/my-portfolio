@@ -1,5 +1,4 @@
 import LabelTag from "../label-tag";
-import { FiCopy } from "react-icons/fi";
 
 const Contact = () => {
   return (
@@ -12,16 +11,14 @@ const Contact = () => {
           What's next? Feel free to reach out to me if you're looking for a
           developer, have a query, or simply want to connect.
         </p>
-        <div className="flex flex-col text-4xl font-semibold">
+        <div className="flex flex-col text-2xl font-semibold">
           <div className="flex items-center justify-center gap-1">
             <span className="mr-2">✉️</span>
-            <span>tom@pinecone.mn</span>
-            <FiCopy />
+            <span>ns.davaajargal@gmail.com</span>
           </div>
           <div className="flex items-center justify-center gap-1">
             <span className="mr-2">📞</span>
-            <span>+976 88112233</span>
-            <FiCopy />
+            <span className="text-lg">+976 88567406</span>
           </div>
         </div>
         <div className="flex flex-col text-center">
