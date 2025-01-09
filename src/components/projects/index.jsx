@@ -64,15 +64,16 @@ const Projects = () => {
   return (
     <div
       id="project"
-      className="flex flex-col items-center justify-center px-20 py-24 bg-gray-100 dark:bg-gray-950"
+      className="flex flex-col items-center justify-center px-4 sm:px-8 md:px-12 lg:px-20 py-12 sm:py-16 lg:py-24 bg-gray-100 dark:bg-gray-950"
     >
       <LabelTag label="Projects" />
-      <p className="mt-4 text-gray-600 dark:text-gray-300">
+      <p className="mt-4 text-center text-sm sm:text-base text-gray-600 dark:text-gray-300 max-w-2xl">
         Here is a quick summary of my most recent experiences:
       </p>
-      <div className="flex flex-col w-full gap-4 mt-12">
+      <div className="flex flex-col w-full gap-6 sm:gap-8 lg:gap-12 mt-8 sm:mt-12">
         {projects.map((project, i) => (
           <ProjectCard
+            key={project.title}
             title={project.title}
             description={project.description}
             image={project.image}
