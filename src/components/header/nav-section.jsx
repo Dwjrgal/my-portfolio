@@ -14,7 +14,7 @@ const NavSection = () => {
   const { theme, setTheme } = useTheme();
   const downloadCV = () => {
     const link = document.createElement("a");
-    link.href = "http://localhost:3000/#about.pdf"; // Path to your CV
+    link.href = "my-porfolio.pdf"; // Path to your CV
     link.download = "my-portfolio.pdf"; // Optional: Specify a filename
     document.body.appendChild(link);
     link.click();
