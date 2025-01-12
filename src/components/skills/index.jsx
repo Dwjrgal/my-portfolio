@@ -21,7 +21,10 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-20 py-24 bg-white dark:bg-gray-950">
+    <div
+      className="flex flex-col items-center justify-center px-20 py-24 bg-white dark:bg-gray-950"
+      id="skills"
+    >
       <LabelTag label="Skills" />
       <p className="mt-4 text-gray-600 dark:text-gray-300">
         The skills, tools and technologies I am really good at:

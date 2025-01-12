@@ -1,11 +1,10 @@
 import { useTheme } from "next-themes";
 import Menu from "./menu";
-import MobileMenu from "./mobile-menu";
 import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
 const menuList = [
   { label: "About", link: "#about" },
-  { label: "Skills", link: "#skill" },
+  { label: "Skills", link: "#skills" },
   { label: "Experience", link: "#experience" },
   { label: "Project", link: "#project" },
   { label: "Contact", link: "#contact" },
@@ -13,9 +12,17 @@ const menuList = [
 
 const NavSection = () => {
   const { theme, setTheme } = useTheme();
+  const downloadCV = () => {
+    const link = document.createElement("a");
+    link.href = "http://localhost:3000/#about.pdf"; // Path to your CV
+    link.download = "my-portfolio.pdf"; // Optional: Specify a filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div>
-      <nav className="items-center justify-between hidden space-x-4 md:flex">
+      <div className="items-center justify-between hidden space-x-4 md:flex">
         <Menu menuList={menuList} />
 
         <button
@@ -29,14 +36,12 @@ const NavSection = () => {
           )}
         </button>
         <button
-          href="/path-to-cv.pdf"
-          download
+          onClick={downloadCV}
           className="px-4 py-2 text-center text-white bg-gray-900 rounded-md dark:bg-white dark:text-gray-900"
         >
           Download CV
         </button>
-      </nav>
-      <MobileMenu menuList={menuList} />
+      </div>
     </div>
   );
 };

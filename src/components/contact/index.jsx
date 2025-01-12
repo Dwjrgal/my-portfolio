@@ -2,9 +2,12 @@ import LabelTag from "../label-tag";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col py-24 bg-gray-100 items-centerpx-20 py-22 dark:bg-gray-950">
+    <div
+      className="flex flex-col py-24 bg-gray-100 items-centerpx-20 py-22 dark:bg-gray-950"
+      id="contact"
+    >
       <div className="flex justify-center">
-        <LabelTag label="Get in touch" />
+        <LabelTag label="Contact" />
       </div>
       <div className="flex flex-col gap-12">
         <p className="w-1/2 m-auto mt-4 text-center">

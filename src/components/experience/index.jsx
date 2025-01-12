@@ -2,7 +2,7 @@ import React from "react";
 import ExperienceCard from "./experience-card";
 import LabelTag from "../label-tag";
 
-const experiences = [
+const experiencesList = [
   {
     title: "Full-stack developer",
     company: "Pet adoption web",
@@ -33,15 +33,18 @@ const experiences = [
   },
 ];
 
-const Experiences = () => {
+const Experience = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-4 py-24 bg-gray-100 sm:px-10 md:px-20 dark:bg-gray-900">
+    <div
+      id="experience"
+      className="flex flex-col items-center justify-center px-4 py-24 bg-gray-100 sm:px-10 md:px-20 dark:bg-gray-900"
+    >
       <LabelTag label="Experience" />
       <p className="mt-4 text-center text-gray-600 dark:text-gray-300">
         Here is a quick summary of my most recent experiences:
       </p>
       <div className="w-full max-w-4xl mt-12">
-        {experiences.map((experience, index) => (
+        {experiencesList.map((experience, index) => (
           <ExperienceCard
             key={index}
             title={experience.title}
@@ -56,4 +59,4 @@ const Experiences = () => {
   );
 };
 
-export default Experiences;
+export default Experience;

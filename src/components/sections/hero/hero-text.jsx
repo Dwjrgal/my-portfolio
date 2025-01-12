@@ -10,12 +10,12 @@ const socialLinks = [
   },
   {
     label: "twitter",
-    url: "https://github.com/",
+    url: "https://twitter.com/",
     icon: <FiTwitter />,
   },
   {
     label: "figma",
-    url: "https://github.com/",
+    url: "https://figma.com/",
     icon: <FiFigma />,
   },
 ];
@@ -62,6 +62,7 @@ const HeroText = () => {
               href={sl.url}
               aria-label={sl.label}
               className="text-lg md:text-xl"
+              key={sl.label}
             >
               {sl.icon}
             </a>
